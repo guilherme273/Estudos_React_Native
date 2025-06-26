@@ -78,13 +78,24 @@ export const styles = StyleSheet.create({
         width:200,
         marginTop:30,
         borderRadius:50,
-        height:50
+        height:50,
+        shadowColor: "#000000",
+        shadowOffset: {
+        width: 0,
+        height: 3,
+        },
+        shadowOpacity:  0.17,
+        shadowRadius: 3.05,
+        elevation: 4
     },
     textButton:{
         color:themas.colors.secondary,
         fontWeight:'bold',
         fontSize:18
+    },
+    error:{
+        color:'red',
+        fontSize:12,
+        paddingLeft:8
     }
-
-
 })
