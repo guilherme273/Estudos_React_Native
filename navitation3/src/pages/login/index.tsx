@@ -33,7 +33,7 @@ export default function Login (){
 
     return (
         <>
-                <View style={styles.container}>
+            <View style={styles.container}>
                 <View style={styles.logoAndWelcome}>
                     <Image source={Logo} />
                     <Text style={styles.textLogo}>Seja Bem Vindo!</Text>
@@ -75,7 +75,7 @@ export default function Login (){
                                     />
                                 )}
                             />
-                          <MaterialIcons name={"remove-red-eye"} size={20} color={themas.colors.lightGray1} />
+                         <MaterialIcons name="lock" size={20} color={themas.colors.lightGray1} />
                         </View>
                             {errors.password && <Text style={styles.error}>{errors.password.message}</Text>}
                     </View>
